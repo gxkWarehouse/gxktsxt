@@ -10,6 +10,10 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    public void createBean（）{
+    public void createBean(){
+    }
+
+    public String createString(){
+        return "123";
     }
 }
